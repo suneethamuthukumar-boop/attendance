@@ -18,7 +18,6 @@ function App() {
         fetch(`${API_URL}/attendance`),
       ]);
 
-
       const studentsData = await studentsRes.json();
       const attendanceData = await attendanceRes.json();
 
